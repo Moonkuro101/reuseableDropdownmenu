@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav role="primary navigation">
+      <div class="logo">
+        <a href="#"> <img src="logo.png" alt="" /> </a>
+      </div>
+      <div class="nav-bar">
+        <a href="#">Home</a>
+        <div class="dropdown">
+          <a href="#" class="dropdown-action"
+            >Services
+            <svg
+              class="dropdown-icon"
+              xmlns="https://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <title>chevron-down</title>
+              <g fill="none">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                  d="M15.25 10.75L12 14.25l-3.25-3.5"
+                ></path>
+              </g>
+            </svg>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">SEO</a></li>
+            <li><a href="#">Content Strategy</a></li>
+            <li><a href="#">Copywriting</a></li>
+            <li><a href="#">Storytelling</a></li>
+          </ul>
+        </div>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <div class="dropdown">
+          <a href="#" class="dropdown-action">
+            Account
+            <svg
+              class="dropdown-icon"
+              xmlns="https://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <title>chevron-down</title>
+              <g fill="none">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                  d="M15.25 10.75L12 14.25l-3.25-3.5"
+                ></path>
+              </g>
+            </svg>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Sign up</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
